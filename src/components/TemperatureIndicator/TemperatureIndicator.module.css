@@ -1,0 +1,61 @@
+.container {
+    width: 1088px;
+    height: 920px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: linear-gradient(
+        125.57deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(0, 255, 87, 0.6) 100%
+    );
+}
+
+.notNormalContainer {
+    width: 1088px;
+    height: 920px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: linear-gradient(
+        125.57deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 138, 122, 0.6) 100%
+    );
+}
+
+.indicators {
+    display: grid;
+    padding: 70px 208px 396px 100px;
+    gap: 68px;
+}
+
+.first-indicator h1 {
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 200px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.first-indicator h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.second-indicator h1 {
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 200px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.second-indicator h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}

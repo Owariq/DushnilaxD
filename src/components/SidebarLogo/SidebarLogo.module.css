@@ -1,0 +1,14 @@
+.container {
+    width: 336px;
+    height: 383px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.logo {
+    width: 318px;
+    height: 307px;
+}

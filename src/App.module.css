@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.name {
+    font-family: Inter;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 1.27em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 33px 40px 20px;
+    gap: 40px;
+}
+
+.side-bar-header {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.side-bar-content {
+    display: flex;
+    gap: 40px;
+}

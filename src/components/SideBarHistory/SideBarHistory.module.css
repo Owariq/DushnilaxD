@@ -1,0 +1,54 @@
+.container {
+    background: #000000;
+    width: 336px;
+    height: 383px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 55px 20px;
+}
+
+.footer {
+    padding: 36px 20px;
+}
+
+.main-text {
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.history-button {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    width: 296px;
+    height: 63.65px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 100px;
+    border: 1px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+.history-button:hover {
+    background: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.history-button:hover svg path {
+    stroke: white;
+}
